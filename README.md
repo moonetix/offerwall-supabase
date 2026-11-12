@@ -9,7 +9,7 @@
 [![Get keys](https://img.shields.io/badge/get%20keys-moonetix.com-004ABB)](https://moonetix.com/register?from=github-offerwall-supabase)
 [![Maintained by Moonetix](https://img.shields.io/badge/maintained%20by-Moonetix-004ABB)](https://moonetix.com)
 
-[Moonetix](https://moonetix.com) is a pay-per-result affiliate network. Publishers add its offerwall, and their users earn the publisher's own currency by completing offers. Every credit and every reversal reaches your server as a signed postback. Here, that server is Supabase: an Edge Function checks the signature and one Postgres function applies the change in a single transaction.
+[Moonetix](https://moonetix.com) is an affiliate network. Publishers add its offerwall, and their users earn the publisher's own currency by completing offers. Every credit and every reversal reaches your server as a signed postback. Here, that server is Supabase: an Edge Function checks the signature and one Postgres function applies the change in a single transaction.
 
 > **Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-supabase**
 
