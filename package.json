@@ -1,0 +1,18 @@
+{
+  "name": "offerwall-supabase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Supabase Edge Functions and SQL for the Moonetix offerwall: signed link and a postback that credits each transaction once.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test test/moonetix.test.ts",
+    "test:sql": "node --test test/sql.test.ts"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.10"
+  }
+}

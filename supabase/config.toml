@@ -1,0 +1,10 @@
+# Only the settings this example needs. `supabase init` adds the full default file.
+project_id = "moonetix-offerwall"
+
+# Moonetix calls the postback without a Supabase token. The handler checks the HMAC instead.
+[functions.moonetix-postback]
+verify_jwt = false
+
+# Called by signed-in users only. Keep the platform JWT check on.
+[functions.offerwall-link]
+verify_jwt = true
