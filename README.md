@@ -6,12 +6,11 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-postbacks-004ABB)](https://docs.moonetix.com/postbacks)
 [![Guide](https://img.shields.io/badge/academy-Supabase%20guide-004ABB)](https://moonetix.com/academy/integrations/offerwall-postback-supabase)
-[![Get keys](https://img.shields.io/badge/get%20keys-moonetix.com-004ABB)](https://moonetix.com/register?from=github-offerwall-supabase)
 [![Maintained by Moonetix](https://img.shields.io/badge/maintained%20by-Moonetix-004ABB)](https://moonetix.com)
 
 [Moonetix](https://moonetix.com) is an affiliate network. Publishers add its offerwall, and their users earn the publisher's own currency by completing offers. Every credit and every reversal reaches your server as a signed postback. Here, that server is Supabase: an Edge Function checks the signature and one Postgres function applies the change in a single transaction.
 
-> **Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-supabase**
+> To run it you need your Moonetix App ID and keys: see [Get your keys](#get-your-keys).
 
 ## Design choices
 
@@ -161,9 +160,9 @@ The two `index.ts` wrappers are type-checked against `@supabase/server` 1.9.2 bu
 - Moonetix for [web apps](https://moonetix.com/industries/web-apps) and [websites](https://moonetix.com/integrations/website)
 - Tools: [postback hash checker](https://moonetix.com/tools/postback-hash-checker), [offerwall link builder](https://moonetix.com/tools/offerwall-link-builder)
 
-## Start earning
+## Get your keys
 
-**Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-supabase**
+Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-supabase
 
 Every publisher application is reviewed by hand. Once you are approved, paste the keys into your Supabase secrets and send a test postback.
 
